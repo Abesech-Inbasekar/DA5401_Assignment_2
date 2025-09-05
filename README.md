@@ -28,7 +28,6 @@ The final notebook contains all code, plots, stories, and conclusions.
 
 ├── Assignment_2.ipynb # Main Jupyter notebook with full analysis, plots, and discussion  
 ├── README.md # This file — explains project structure and submission details  
-└── data/ # (Optional) Folder to place the mushroom dataset locally if required  
 
 
 ---
@@ -36,7 +35,7 @@ The final notebook contains all code, plots, stories, and conclusions.
 ## How to Run
 
 1. Clone the GitHub Classroom repository created from the assignment link.  
-2. Open `Assignment_2.ipynb` in Jupyter Notebook or JupyterLab.  
+2. Open `me21b003_Assignment_2.ipynb` in Jupyter Notebook or JupyterLab.  
 3. Install the dependencies:  
    ```bash
    pip install pandas numpy matplotlib seaborn scikit-learn
