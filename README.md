@@ -26,9 +26,9 @@ The final notebook contains all code, plots, stories, and conclusions.
 
 ## Folder Structure & Submission Details
 
-├── Assignment_2.ipynb # Main Jupyter notebook with full analysis, plots, and discussion
-├── README.md # This file — explains project structure and submission details
-└── data/ # (Optional) Folder to place the mushroom dataset locally if required
+├── Assignment_2.ipynb # Main Jupyter notebook with full analysis, plots, and discussion  
+├── README.md # This file — explains project structure and submission details  
+└── data/ # (Optional) Folder to place the mushroom dataset locally if required  
 
 
 ---
