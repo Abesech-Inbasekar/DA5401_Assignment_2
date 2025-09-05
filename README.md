@@ -6,19 +6,6 @@
 ---
 
 ## 📂 Repository Structure
-
-## Folder Structure & Submission Details  
-
-```plaintext
-├── Assignment_2.ipynb     # Main Jupyter notebook with code, visualizations, and analysis
-├── README.md              # This file
-
-
-- **Assignment_2.ipynb**: Contains the complete workflow, including  
-  - Part A: EDA & preprocessing (one-hot encoding, standardization)  
-  - Part B: PCA analysis, scree plots, and visualizations  
-  - Part C: Logistic Regression models (baseline vs PCA) with comparison and narrative  
-
 ---
 
 ## 📝 Assignment Overview
@@ -41,4 +28,16 @@ Key objectives:
 3. Ensure dependencies are installed:  
    ```bash
    pip install pandas numpy matplotlib seaborn scikit-learn
+
+## Folder Structure & Submission Details  
+
+```plaintext
+├── Assignment_2.ipynb     # Main Jupyter notebook with code, visualizations, and analysis
+├── README.md              # This file
+
+
+- **Assignment_2.ipynb**: Contains the complete workflow, including  
+  - Part A: EDA & preprocessing (one-hot encoding, standardization)  
+  - Part B: PCA analysis, scree plots, and visualizations  
+  - Part C: Logistic Regression models (baseline vs PCA) with comparison and narrative  
 
