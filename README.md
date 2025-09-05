@@ -1,43 +1,43 @@
-# DA5401 Assignment 2 — PCA, Dimensionality Reduction, and Logistic Regression
+# Assignment 2 — PCA, Dimensionality Reduction, and Logistic Regression
 
 **Name:** Abesech Inbasekar  
 **Roll Number:** ME21B003  
 
 ---
 
-## 📂 Repository Structure
+## Overview
+
+This assignment applies concepts of **vector spaces, dimensionality reduction, and classification** to the Mushroom dataset. The objective is to use **Principal Component Analysis (PCA)** to reduce the dimensionality of one-hot encoded categorical features, and then evaluate the effect of this reduction on a **Logistic Regression classifier**.
+
+The analysis covers:
+
+- One-hot encoding of categorical attributes and separation of features from the target variable
+- Standardization of features to ensure equal variance contribution
+- PCA decomposition of the feature space and scree plot analysis
+- Selection of an optimal number of principal components (retaining ~95% variance)
+- Visualization of the dataset in the reduced PCA space (scatter plots and pair plots)
+- Baseline Logistic Regression performance on original features
+- Logistic Regression performance on PCA-transformed features
+- Comparison and analysis of performance trade-offs between full and reduced feature spaces
+
+The final notebook contains all code, plots, stories, and conclusions.
+
 ---
 
-## 📝 Assignment Overview
+## Folder Structure & Submission Details
 
-This assignment explores the application of **Principal Component Analysis (PCA)** to a high-dimensional categorical dataset (Mushroom classification). The task is to reduce dimensionality after one-hot encoding and evaluate the effect of this reduction on a **Logistic Regression classifier**.  
+├── Assignment_2.ipynb # Main Jupyter notebook with full analysis, plots, and discussion
+├── README.md # This file — explains project structure and submission details
+└── data/ # (Optional) Folder to place the mushroom dataset locally if required
 
-Key objectives:  
-1. Apply one-hot encoding and standardization to categorical features.  
-2. Perform PCA and analyze variance distribution via scree plot.  
-3. Visualize data in reduced dimensions to assess class separability.  
-4. Compare baseline Logistic Regression performance with PCA-transformed performance.  
-5. Reflect on trade-offs between dimensionality reduction, information retention, and model efficiency.  
 
 ---
 
-## ✅ How to Run
+## How to Run
 
 1. Clone the GitHub Classroom repository created from the assignment link.  
-2. Open `me21b003_assignment_2.ipynb` in Jupyter Notebook or JupyterLab.  
-3. Ensure dependencies are installed:  
+2. Open `Assignment_2.ipynb` in Jupyter Notebook or JupyterLab.  
+3. Install the dependencies:  
    ```bash
    pip install pandas numpy matplotlib seaborn scikit-learn
-
-## Folder Structure & Submission Details  
-
-```plaintext
-├── Assignment_2.ipynb     # Main Jupyter notebook with code, visualizations, and analysis
-├── README.md              # This file
-
-
-- **Assignment_2.ipynb**: Contains the complete workflow, including  
-  - Part A: EDA & preprocessing (one-hot encoding, standardization)  
-  - Part B: PCA analysis, scree plots, and visualizations  
-  - Part C: Logistic Regression models (baseline vs PCA) with comparison and narrative  
 
