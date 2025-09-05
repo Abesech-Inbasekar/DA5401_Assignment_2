@@ -7,18 +7,17 @@
 
 ## 📂 Repository Structure
 
+## Folder Structure & Submission Details  
+
+```plaintext
 ├── Assignment_2.ipynb     # Main Jupyter notebook with code, visualizations, and analysis
 ├── README.md              # This file
-└── data/                  # (Optional) Folder for dataset if needed locally
 
 
 - **Assignment_2.ipynb**: Contains the complete workflow, including  
   - Part A: EDA & preprocessing (one-hot encoding, standardization)  
   - Part B: PCA analysis, scree plots, and visualizations  
   - Part C: Logistic Regression models (baseline vs PCA) with comparison and narrative  
-
-- **data/**: If you downloaded the Kaggle Mushroom dataset locally, place it here.  
-  The notebook is written so that the dataset path can be easily modified if required.
 
 ---
 
